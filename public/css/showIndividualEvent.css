@@ -1,0 +1,65 @@
+.bckgrnd {
+ 
+    background-image: url(../pictures/t1.jpg);
+  }
+
+.border{
+    border-style: solid;
+    border-width: 6px 25px;
+    border-color: rgb(13, 0, 128);
+    border-radius: 50px;
+    margin: 0px 400px;
+    background-color: rgba(0, 139, 255, 0.5);
+
+}
+
+.row h1{
+    font-family:calibri;
+    color:rgb(214, 225, 255) ;
+    
+  }
+
+
+  .btn-primary{
+    margin-left: 25px;
+    background-color: #053257;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      text-decoration: solid;
+      border-radius: 10px;
+
+  
+  }
+  
+  .btn-primary:hover{
+    margin-left: 25px;
+    background-color: #4cc0e4;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      text-decoration: solid;
+      border-radius: 10px;
+  
+  }
+  
+  .form-group{
+    font-family:calibri;
+    color:rgb(9, 9, 15) ;
+    font-size:20px;
+    line-height: 2.0;
+  }
+
+  strong {
+    margin-left:40%;
+  }
+
+.form-group label{
+    
+    word-wrap:break-word;
+    color:rgb(250, 252, 253);
+    
+
+    
+    
+}

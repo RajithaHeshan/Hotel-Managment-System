@@ -1,0 +1,145 @@
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+form {
+  margin-left: 12%;
+  margin-right:12%;
+  width: 80%;
+}
+
+.btn-primary{
+background-color: #568dd4;
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+opacity: 1;
+transition: 0.3s;
+margin-left: 87%;
+}
+
+.btn-primary:hover {opacity: 0.6}
+
+
+.btn-primary2 {
+background-color: #1e70f4;
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+opacity: 1;
+transition: 0.3s;
+}
+
+.btn-primary2:hover {opacity: 0.6}
+.btn-primary3 {
+background-color: #1e70f4;
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+opacity: 1;
+transition: 0.3s;
+margin-left: 40%;
+}
+
+.btn-primary3:hover {opacity: 0.6}
+
+.btn-success{
+background-color:#58b4bd;
+margin-left: 70%;
+}
+
+.btn{
+border:none;
+color:white;
+padding: 22px 45px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+opacity: 0.9;
+
+}
+#box3 {
+box-shadow: 5px 5px rgb(31, 174, 209), -5px -10px rgb(25, 124, 190);
+padding: 60px 60px;
+margin-right:10%;
+margin-left: 10%;
+background-color: white;
+
+}
+input[type=text] {
+width: 70%;
+border: 2px solid rgb(65, 181, 216);
+border-radius: 4px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+
+input[type=number] {
+width: 70%;
+padding: 12px 20px;
+margin: 8px 0;
+border-radius: 4px;
+border: 2px solid rgb(65, 181, 216);
+box-sizing: border-box;
+}
+
+input[type=date] {
+width: 70%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid rgb(65, 181, 216);
+border-radius: 4px;
+}
+h5 { 
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: medium;
+color: rgb(65, 134, 134);
+}
+
+h5 { 
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: medium;
+color: rgb(65, 134, 134);
+}
+h2 { 
+text-align: center;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: rgb(55, 92, 92);
+}
+.alert{
+background-color: rgb(231, 175, 149) ;
+padding: 10px ;
+border: 1px solid rgb(204, 131, 113) ;
+margin-right:9%;
+margin-left: 9%;
+}
+.alert-success{
+
+color: rgb(226, 62, 62);
+background-color: #e49cac;
+border-color: #ee093b;
+
+}
+#box4 {
+  background-image: url(../pictures/p11.jpg);
+  background-size: auto; 
+  
+  }

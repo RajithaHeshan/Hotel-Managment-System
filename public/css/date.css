@@ -1,0 +1,10 @@
+input[type          = date] {
+    width                       : 240px;
+    border                      : 5px solid #018383;
+    border-radius               : 10px;
+    vertical-align              : middle;
+    align-content               : center;
+    margin                      : 20px 70px;
+    padding                     : 10px;
+    text-align                  : left ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}

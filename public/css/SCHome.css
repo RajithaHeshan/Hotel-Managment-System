@@ -1,0 +1,77 @@
+.grid-container {
+    display                 : grid;
+    margin                  : auto;
+    grid-template-columns   : auto auto auto auto;
+    grid-template-rows      : 180px 180px;
+    grid-column-gap         : 20px;
+    grid-row-gap            : 20px;
+    background-color        : #464040;
+    padding                 : 10px;
+    width                   : 80%;
+  }
+  
+.grid-container > div {
+    background-color        : white;
+    text-align              : center;
+    padding                 : 20px 0;
+    font-size               : 30px;}
+.container {
+        position            : relative;
+        width               : 100%;
+      }
+.image {
+        opacity             : 1;
+        display             : block;
+        margin              : auto;
+        justify-content     : center;
+        height              : 150px;
+        transition          : .5s ease;
+        backface-visibility : hidden;
+      }
+      
+.middle {
+        transition          : .5s ease;
+        opacity             : 0;
+        position            : absolute;
+        top                 : 50%;
+        left                : 50%;
+        transform           : translate(-50%, -50%);
+        -ms-transform       : translate(-50%, -50%);
+        text-align          : center;
+      }
+      
+.container:hover .image {
+        opacity             : 0.3;
+      }
+      
+.container:hover .middle {
+        opacity             : 2;
+      }
+      
+.text {
+        background-color    : #4CAF50;
+        color               : white;
+        font-size           : 16px;
+        padding             : 16px 20px;
+      }
+.container .btn {
+        position            : absolute;
+        top                 : 50%;
+        left                : 50%;
+        width: 150px;
+        transform           : translate(-50%, -50%);
+        -ms-transform       : translate(-50%, -50%);
+        background-color    : #018383;
+        color               : white;
+        font-size           : 18px;
+        padding             : 12px 15px;
+        border              : none;
+        cursor              : pointer;
+        border-radius       : 5px;
+        text-align          : center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+.container .btn:hover {
+        background-color    : #529B7B;
+      }

@@ -1,0 +1,160 @@
+.createBack {
+ 
+  background-image: url(../pictures/h1.jpg);
+}
+h1{
+  font-family:calibri;
+  color:rgb(41, 41, 139) ;
+  
+}
+
+
+
+
+.chrgs input::-webkit-outer-spin-button,
+.chrgs input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position:absolute;
+  z-index: 1;
+  top: 200;
+  overflow-x: hidden;
+  padding-top: 20px;
+ 
+}
+
+  
+  .left {
+    left: 2;
+     background-color: rgb(138, 168, 168);
+     
+  }
+  
+  .right {
+    
+    right: 8px;
+    background-color: rgb(180, 135, 180);
+   
+  }
+
+  input[type=email],input[type=text],input[type=tel], select,input[type=number],textarea,input[type=date],input[type=time] {
+    width: 30%;
+    padding: 3px 8px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+   
+    background-color: #6b1d3e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #f14fb3;
+    color: white;
+    padding: 16px 22px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label {
+      width:150px;
+      display: inline-block;
+      text-align: right;
+      font-size: 17px;
+     ;
+  }
+
+
+
+  
+ .radio label {
+    width:50px;
+    
+    text-align: center;
+}
+
+
+.RadioHall label ,input[type=radio]{
+ 
+  display: inline-block;
+  text-align:left;
+  
+}
+
+
+.RadioHall {
+ 
+ 
+  margin-left:140px;
+  
+}
+
+.btn-primary{
+  margin-left: 7px;
+  background-color: #0971c7;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: solid;
+    border-radius: 4px;
+
+}
+
+
+.btn-primary:hover{
+  margin-left: 7px;
+  background-color: #4cc0e4;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: solid;
+    border-radius: 4px;
+
+}
+
+
+.alert {
+  padding: 0px;
+  margin-bottom: 0px;
+  border: 2px solid transparent;
+  border-radius: .25rem;
+  width:400px;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  
+}
+.alert-danger {
+  color: #a50909;
+  background-color: #e49cac;
+  border-color: #ee093b;
+
+  
+}
+
+
+
+
+
+
+
+

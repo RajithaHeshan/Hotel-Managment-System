@@ -1,0 +1,33 @@
+.EvntHome{
+    
+    background-image: url(../pictures/i1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: block;
+    
+ }
+
+.EvntHome button  {
+    background-color: #df7a27; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+  }
+  
+  .EvntHome button:hover{
+ 
+    background-color: #eba626;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+  
+  }

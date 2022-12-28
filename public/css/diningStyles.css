@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(63, 85, 73) !important;
+}
+
+.menuBody {
+    width: 900px;
+    margin: 40px 60px;
+    padding: 30px 60px;
+    background-color: rgb(193, 248, 193);
+    border-radius: 30px;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.submit-btn {
+    background-color: rgb(63, 85, 73) !important;
+    color: white;
+    outline: none !important;
+    border: none !important;
+}
+
+.submit-btn:hover {
+    background-color: rgb(30, 41, 35) !important;
+}
+
+.menu-title {
+    font-weight: 800;
+    text-align: center;
+    font-size: 32pt;
+    color: rgb(30, 41, 35);
+}
