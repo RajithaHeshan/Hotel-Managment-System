@@ -90,9 +90,6 @@ productive and efficient if they upgrade their manual system to a web-based syst
 * If everything works(run) perfect, push the updates in local master to github master:                                      
         ``git push``                        
         
-## Acknowledgment
-<p align="center"> <a href="https://www.sliit.lk/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/SLIIT_Logo_Crest.png" width="100"></a></p>
-<p align="center"> This is a group project done for ITP module in second year, SLIIT </p>
 
 ## Contributors
    * IT19977980– Abeynayake T.C-<a href="https://github.com/TharinduAB">TharinduAB</a>
